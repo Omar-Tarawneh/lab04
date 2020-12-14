@@ -2,6 +2,32 @@
 <head>
     <title>Document</title>
 </head>
+<style>
+    footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+div.item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+    width: 120px;
+}
+img {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    
+}
+.caption {
+    display: block;
+}
+</style>
 <body>
     <header>
         <nav>
@@ -15,16 +41,26 @@
 
     <main>
         <h1>Pet Kinds</h1>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/220px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg">
-        <a href="https://en.wikipedia.org/wiki/German_Shepherd">German_Shepherd</a>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bulldog_adult_male.jpg/220px-Bulldog_adult_male.jpg">
-        <a href="https://en.wikipedia.org/wiki/Bulldog">Bulldog</a>
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/220px-Full_attention_%288067543690%29.jpg">
-        <a href="https://en.wikipedia.org/wiki/Poodle">Poodle</a>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/German_Shepherd_-_DSC_0346_%2810096362833%29.jpg/220px-German_Shepherd_-_DSC_0346_%2810096362833%29.jpg">
+            <a class="caption" href="https://en.wikipedia.org/wiki/German_Shepherd">German_Shepherd</a>
+        </div>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/11/Bulldog_adult_male.jpg/220px-Bulldog_adult_male.jpg">
+            <a class="caption" href="https://en.wikipedia.org/wiki/Bulldog">Bulldog</a>
+        </div>
+        <div class="item">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/220px-Full_attention_%288067543690%29.jpg">
+            <a class="caption" href="https://en.wikipedia.org/wiki/Poodle">Poodle</a>
+        </div>
+        
     </main>
 
+    
+    
     <footer>
-
+        2020
+        Made by Omar Tarawenh
     </footer>
 
 </body>
